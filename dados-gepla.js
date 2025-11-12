@@ -1,0 +1,6323 @@
+// ===================================
+// DADOS DO GEPLA - Atualizados do Excel
+// Fonte: Modelo de Governança - BD.xlsx
+// ===================================
+
+const dadosCompletos = {
+  "estrutura": {
+    "1. GOVERNANÇA": {
+      "responsaveis": [
+        "Meales Medeiros de Melo"
+      ],
+      "coordenadores": {
+        "Fabio Jose de Oliveira Araujo": [
+          {
+            "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+            "subitem": "Funções Comissionadas entre 1º e 2º graus",
+            "periodo": "SITUAÇÃO EM 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+            "subitem": "Cargos em Comissão entre 1º e 2º graus",
+            "periodo": "SITUAÇÃO EM 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+            "subitem": "Quantidade de servidores entre 1º e 2º graus",
+            "periodo": "SITUAÇÃO EM 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+            "subitem": "Cargos em comissão da área administrativa",
+            "periodo": "SITUAÇÃO EM 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+            "subitem": "Funções comissionadas da área administrativa",
+            "periodo": "SITUAÇÃO EM 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+            "subitem": "Quantidade de servidores da área administrativa",
+            "periodo": "SITUAÇÃO EM 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Gestão de Memória e Documental",
+            "subitem": "Ambientes físicos e virtuais de preservação da memória",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "CPAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Gestão de Memória e Documental",
+            "subitem": "Editais de eliminação",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "CPAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Acessibilidade e inclusão de pessoas com deficiência",
+            "subitem": "Eventos realizados",
+            "periodo": "01/01/2025 A 31/12/2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "CERIMONIAL/NGSA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Grupos vulnerabilizados - Resolução 497/2023",
+            "subitem": "Contratação de grupos vulneráveis",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "DIADM",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Leonardo Sousa de Paiva Oliveira": [
+          {
+            "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+            "subitem": "Orçamento entre 1º e 2º graus",
+            "periodo": "Lei Orçamentária Anual (LOA) de 2026",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "DIFIN",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Estruturação de juizados de violência doméstica e familiar",
+            "subitem": "Estruturação de juizados de violência doméstica e familiar",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "PRESIDÊNCIA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Política Judiciária Nacional para a Primeira Infância",
+            "subitem": "Estruturação de juizados de violência doméstica e familiar",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "PRESIDÊNCIA",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Antonieta Lucia Maroja Arcoverde Nobrega": [
+          {
+            "item": "Gestão participativa na elaboração das Metas Nacionais",
+            "subitem": "Realizar audiência pública",
+            "periodo": "01/01/2026 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 15.0,
+            "setor": "GEPLA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Gestão participativa na elaboração das Metas Nacionais",
+            "subitem": "Realizar consulta pública",
+            "periodo": "01/01/2026 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 15.0,
+            "setor": "GEPLA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Gestão participativa na elaboração das Metas Nacionais",
+            "subitem": "Realizar uma ou mais reuniões com Magistrados e servidores",
+            "periodo": "01/01/2026 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 30.0,
+            "setor": "GEPLA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Inspeções nos estabelecimentos de medidas socioeducativas",
+            "subitem": "Meio Fechado",
+            "periodo": "01/07/2025 A 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Inspeções nos estabelecimentos de medidas socioeducativas",
+            "subitem": "Meio aberto",
+            "periodo": "01/07/2025 A 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Acessibilidade e inclusão de pessoas com deficiência",
+            "subitem": "Servidores capacitados(as)",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "ESMA/NGSA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Acessibilidade e inclusão de pessoas com deficiência",
+            "subitem": "Magistrados(as) capacitados(as)",
+            "periodo": "01/01/2024 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "ESMA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Núcleo de cooperação judiciária",
+            "subitem": "Capacitação - Direitos Humanos",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "ESMA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Capacitação de Magistrados e servidores",
+            "subitem": "Capacitação - Depoimento Especial",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "ESMA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Capacitação de Magistrados e servidores",
+            "subitem": "Capacitação - reflexão e sensibilização de autores de violência doméstica",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "ESMA",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Lua Yamaoka Mariz Maia Pitanga": [
+          {
+            "item": "Gestão Socioambiental e IDS",
+            "subitem": "Resultado do IDS",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 50.0,
+            "setor": "NGSA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Núcleo de cooperação judiciária",
+            "subitem": "Iniciativa promovida pelo núcleo",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "VICE",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Núcleo de cooperação judiciária",
+            "subitem": "Iniciativa promovida pelo magistrado de cooperação",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "VICE",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Silmary Alves de Queiroga Vita": [
+          {
+            "item": "Judicialização da Saúde",
+            "subitem": "Possuir NatJus",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COMITÊ ESTADUAL DE SAÚDE",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Judicialização da Saúde",
+            "subitem": "Executar Plano de Estadual",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COMITÊ ESTADUAL DE SAÚDE",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Judicialização da Saúde",
+            "subitem": "Acordo de Cooperação Técnica",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COMITÊ ESTADUAL DE SAÚDE",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Judicialização da Saúde",
+            "subitem": "Capacitação",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "ESMA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Judicialização da Saúde",
+            "subitem": "Possuir unidade judiciária especializada na temática da saúde",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Aposentadoria",
+            "subitem": "Programa de Preparação à Aposentadoria (PPA)",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "VICE",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Jeremias de Cassio Carneiro de Melo": [
+          {
+            "item": "Centro de Inteligência do Poder Judiciário",
+            "subitem": "Emitir 3 Notas técnicas",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 15.0,
+            "setor": "GEPLA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Política de Gestão da Inovação",
+            "subitem": "Laboratório de Inovação",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COINO",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Política de Gestão da Inovação",
+            "subitem": "Projeto design thinking",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COINO",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Tulia Gomes de Souza Neves": [
+          {
+            "item": "Assédio Moral, Sexual e Discriminação",
+            "subitem": "Capacitação de servidores chefes",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COAPO",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Assédio Moral, Sexual e Discriminação",
+            "subitem": "Semana de Combate ao Assédio",
+            "periodo": "01/01/2022 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "ESMA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Assédio Moral, Sexual e Discriminação",
+            "subitem": "Campanha de orientação",
+            "periodo": "MAIO DE 2026",
+            "deadline": "2026-05-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COAPO",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Assédio Moral, Sexual e Discriminação",
+            "subitem": "Penquisa que avalie assédio no tribunal",
+            "periodo": "01/01/2023 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COAPO",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Ivna Mozart Bezerra Soares": [
+          {
+            "item": "Política Nacional de Justiça Restaurativa",
+            "subitem": "Possuir CEJURE",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "NEJURE",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Política Nacional de Justiça Restaurativa",
+            "subitem": "Capacitação",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "NEJURE",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Política Nacional de Justiça Restaurativa",
+            "subitem": "Relatório de Atividades",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "NEJURE",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Maria Aparecida Sarmento Gadelha": [
+          {
+            "item": "Instalar GMF",
+            "subitem": "Estrutura de apoio administrativo / Equipe multiprofissional",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "GMF",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Inspeções nos estabelecimentos penais",
+            "subitem": "Inspeções nos estabelecimentos penais",
+            "periodo": "01/09/2025 A 31/08/2026",
+            "deadline": "2026-08-31 00:00:00",
+            "pontos": 30.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Participação Institucional Feminina",
+            "subitem": "Paridade na promoção por merecimento",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "TRIBUNAL PLENO",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Participação Institucional Feminina",
+            "subitem": "Paridade magistradas auxiliares",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "PRESIDÊNCIA",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Participação Institucional Feminina",
+            "subitem": "Paridade cortes eleitorais",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "TRIBUNAL PLENO",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Participação Institucional Feminina",
+            "subitem": "Paridade servidoras ocupantes de cargos de chefia",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEDAD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Apoio às Vítimas de Crimes e Atos Infracionais",
+            "subitem": "Centros Especializados de Atenção às Vítimas",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Max Nunes de Franca": [
+          {
+            "item": "Acessibilidade e inclusão de pessoas com deficiência",
+            "subitem": "Recursos de tecnologia assistida para srvidores com deficiência visual",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "DITEC",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Anna Carla Lopes Correia Lima de Freitas": [
+          {
+            "item": "Acessibilidade e inclusão de pessoas com deficiência",
+            "subitem": "Relatório de Ações da COMPACI",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 0.0,
+            "setor": "COAPO",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Natan Figueredo Oliveira": [
+          {
+            "item": "Acessibilidade e inclusão de pessoas com deficiência",
+            "subitem": "Projeto de uso de linguagem simples",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPLA",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Graziela Queiroga Gadelha de Sousa": [
+          {
+            "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+            "subitem": "Programa de prevenção",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COORDENADORIA VD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+            "subitem": "Campanha de orientação",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "COORDENADORIA VD",
+            "eixo": "1. GOVERNANÇA"
+          },
+          {
+            "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+            "subitem": "Evento Anual",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "COORDENADORIA VD",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Maria dos Remedios Pordeus Pedrosa": [
+          {
+            "item": "Política Judiciária Nacional para a Primeira Infância",
+            "subitem": "Plano de Ação - Comitê de Primeira Infância",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "COINJU",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ],
+        "Jailson Shizue Suassuna": [
+          {
+            "item": "IPER",
+            "subitem": "Índice de Promoção de Equidade Racial",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "COAPO",
+            "eixo": "1. GOVERNANÇA"
+          }
+        ]
+      }
+    },
+    "2. PRODUTIVIDADE": {
+      "responsaveis": [
+        "Alirio Maciel Lima de Brito"
+      ],
+      "coordenadores": {
+        "Meales Medeiros de Melo": [
+          {
+            "item": "Melhores índices no IPC-Jus",
+            "subitem": "Melhores índices no IPC-Jus",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 90.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Redução da Taxa de Congestionamento Líquida",
+            "subitem": "Taxa de Congestionamento Líquida",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 50.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Tempo Médio",
+            "subitem": "Tempo Médio",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 50.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 5",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Julgar processos antigos",
+            "subitem": "Julgar processos antigos",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 50.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Unidades judiciárias com IAD acima de 100%",
+            "subitem": "1º Grau",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 30.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Unidades judiciárias com IAD acima de 100%",
+            "subitem": "2º Grau",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Kleyber Thiago Trovao Eulalio": [
+          {
+            "item": "Índices de Conciliação",
+            "subitem": "1º grau",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Índices de Conciliação",
+            "subitem": "juizados especiais",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Índices de Conciliação",
+            "subitem": "2º grau",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Índices de Conciliação",
+            "subitem": "execução extrajudicial não fiscais",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Índices de Conciliação",
+            "subitem": "execução não criminal",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 3",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Alirio Maciel Lima de Brito": [
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 1",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 2",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Jailson Shizue Suassuna": [
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 4",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Deborah Cavalcanti Figueiredo": [
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 6",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 0.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Juízo Verde",
+            "subitem": "IAD",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Juízo Verde",
+            "subitem": "Julgamento dos processos antigos",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Graziela Queiroga Gadelha de Sousa": [
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 8",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Julgar Violência contra a Mulher",
+            "subitem": "Tempo Médio - Feminicídio",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Julgar Violência contra a Mulher",
+            "subitem": "Tempo médio - VD",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Julgar Violência contra a Mulher",
+            "subitem": "Tempo Médio - Medida Protetiva",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Max Nunes de Franca": [
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 10",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Maria dos Remedios Pordeus Pedrosa": [
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 11",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Audiências concentradas socioeducativo",
+            "subitem": "Regulamentação",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Audiências concentradas socioeducativo",
+            "subitem": "Audiências concentradas socioeducativo",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 15.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Julgamento apurações infracionais",
+            "subitem": "Tempo médio",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Natan Figueredo Oliveira": [
+          {
+            "item": "Cumprimento das Metas Nacionais",
+            "subitem": "Meta 9",
+            "periodo": "ANO-BASE 2025",
+            "deadline": "2025-12-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "COINO",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Silmary Alves de Queiroga Vita": [
+          {
+            "item": "Judicialização da Saúde",
+            "subitem": "Tempo Médio",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Fabio Leandro de Alencar Cunha": [
+          {
+            "item": "Adoção e acolhimento",
+            "subitem": "Reavaliação de acolhimento",
+            "periodo": "30/04/2026 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Adoção e acolhimento",
+            "subitem": "Tempo Médio - Adoção",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Adoção e acolhimento",
+            "subitem": "Tempo Médio - Destituição do poder familiar",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Adoção e acolhimento",
+            "subitem": "CPF cadastrado das crianças acolhidas",
+            "periodo": "INICIADOS ATÉ 30/06/2026 E ATIVOS ATÉ 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Marcial Henrique Ferraz da Cruz": [
+          {
+            "item": "Ações Penais (geral e júri)",
+            "subitem": "Tempo Médio Ação Penal",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          },
+          {
+            "item": "Ações Penais (geral e júri)",
+            "subitem": "Tempo Médio Ação do Júri",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Frederico Martinho da Nobrega Coutinho": [
+          {
+            "item": "Julgar IRDR ou IAC",
+            "subitem": "Julgar IRDR ou IAC",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 15.0,
+            "setor": "GABINETES",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ],
+        "Andrea Arcoverde Cavalcanti Vaz": [
+          {
+            "item": "Incidentes de progressão de regime",
+            "subitem": "Incidentes de progressão de regime",
+            "periodo": "01/08/2025 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 60.0,
+            "setor": "UNIDADES JUDICIÁRIAS",
+            "eixo": "2. PRODUTIVIDADE"
+          }
+        ]
+      }
+    },
+    "4. DADOS E TECNOLOGIA": {
+      "responsaveis": [
+        "Anderley Ferreira Marques",
+        "Jeremias de Cassio Carneiro de Melo"
+      ],
+      "coordenadores": {
+        "Paula Frassinetti V. de Andrade": [
+          {
+            "item": "DataJud",
+            "subitem": "Assunto válido",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento válido",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento com complemento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Documento do Polo ativo",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Documento do Polo passivo",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Processos Advogado polo passivo",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Processo Advogado - representante",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento de audiência com complemento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento de Remessa com complemento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento de mudança de classe com complemento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento de recurso a instância superior com complemento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento de medida protetiva com complemento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Ação Penal do Júri com assunto da hierarquia 3369",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento de sessão júri com complemento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Ação Penal do júri com polo passivo",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento de Julgamento com CPF do Magistrado",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento x classe processual",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento x órgão julgador",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Movimento x órgão colegiado",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "processos juizo 100% digital",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 5.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "Processos com Custas recolhidas",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DataJud",
+            "subitem": "processos com prioridade",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Saneamento do Datajud",
+            "subitem": "Dados básicos",
+            "periodo": "Enviados ao DataJud até 15/8/2026",
+            "deadline": "2026-08-15 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Saneamento do Datajud",
+            "subitem": "Assuntos",
+            "periodo": "Enviados ao DataJud até 15/8/2026",
+            "deadline": "2026-08-15 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Saneamento do Datajud",
+            "subitem": "Partes",
+            "periodo": "Enviados ao DataJud até 15/8/2026",
+            "deadline": "2026-08-15 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          }
+        ],
+        "Jeremias de Cassio Carneiro de Melo": [
+          {
+            "item": "MPM",
+            "subitem": "Cadastro de serventias",
+            "periodo": "Dados recebidos até 20/8/2026",
+            "deadline": "2026-08-20 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEDAD",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "MPM",
+            "subitem": "Cadastro de Magistrados",
+            "periodo": "Dados recebidos até 20/8/2026",
+            "deadline": "2026-08-20 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEDAD",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "MPM",
+            "subitem": "Cadastro de Servidores",
+            "periodo": "Dados recebidos até 20/8/2026",
+            "deadline": "2026-08-20 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEDAD",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          }
+        ],
+        "Max Nunes de Franca": [
+          {
+            "item": "Acervo Eletrònico",
+            "subitem": "Acervo Eletrònico",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 50.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "iGov-TIC-JUD",
+            "subitem": "iGov-TIC-JUD",
+            "periodo": "SITUAÇÃO EM 15/09/2026",
+            "deadline": "2026-09-15 00:00:00",
+            "pontos": 30.0,
+            "setor": "COORDENAÇÃO DE GOVERNANÇA",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "iGov-TIC-JUD",
+            "subitem": "Força de Trabalho Ditec",
+            "periodo": "01/01/2026 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 30.0,
+            "setor": "COORDENAÇÃO DE GOVERNANÇA",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "PDPJ",
+            "subitem": "SSO",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 30.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "PDPJ",
+            "subitem": "Serviço de Peticionamento",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Codex",
+            "subitem": "Proporção de casos novos",
+            "periodo": "01/01/2026 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 25.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Codex",
+            "subitem": "Proporção de casos baixados",
+            "periodo": "01/01/2026 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 25.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Codex",
+            "subitem": "Correlação entre órgão judiciais singulares e locais",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Codex",
+            "subitem": "Processos eletrônicos com classe processual válida",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Codex",
+            "subitem": "Processos eletrônicos com assuntos válidos",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 10.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Codex",
+            "subitem": "Latência de Transmissão",
+            "periodo": "01/01/2026 a 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 35.0,
+            "setor": "GEINF",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "Domicílio Eletrônico",
+            "subitem": "Domicílio Eletrônico",
+            "periodo": "01/03/2026 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          },
+          {
+            "item": "DJEN",
+            "subitem": "DJEN",
+            "periodo": "01/03/2026 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 20.0,
+            "setor": "GEPJE",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          }
+        ],
+        "Fabio Jose de Oliveira Araujo": [
+          {
+            "item": "PID",
+            "subitem": "PID",
+            "periodo": "SITUAÇÃO EM 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 30.0,
+            "setor": "GEPLA",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          }
+        ],
+        "Fabio Leandro de Alencar Cunha": [
+          {
+            "item": "BNMP",
+            "subitem": "BNMP",
+            "periodo": "01/08/2025 A 31/07/2026",
+            "deadline": "2026-07-31 00:00:00",
+            "pontos": 0.0,
+            "setor": "GEFIJ",
+            "eixo": "4. DADOS E TECNOLOGIA"
+          }
+        ]
+      }
+    },
+    "3. TRANSPARÊNCIA": {
+      "responsaveis": [
+        "Pedro Davi Alves de Vasconcelos"
+      ],
+      "coordenadores": {
+        "Leonardo Sousa de Paiva Oliveira": [
+          {
+            "item": "GESTÃO",
+            "subitem": "Normativo do Planejamento Estratégico",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEPLA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO",
+            "subitem": "Resultados do Planejamento Estratégico",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEPLA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO",
+            "subitem": "Estrutura Organizacional",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GEPLA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO",
+            "subitem": "Acompanhamento dos Projetos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEPLA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Execução orçamentária - Anexo I",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Execução orçamentária - Anexo II",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Publicação do QDD",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Publicação da LOA",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Mapa da Execução Orçamentária do ano anterior",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Relatório de Gestão Fiscal",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Mapa Anual de Precatórios",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEPRE",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+            "subitem": "Prestações de contas do ano anterior",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+            "subitem": "Regularidade das contas proferida pelo Órgão de Controle Externo",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "DIFIN",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+            "subitem": "Certificado de auditoria",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEAUD",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+            "subitem": "Plano Anual de Auditoria",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEAUD",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+            "subitem": "Plano Anual de Capacitação de Auditoria",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEAUD",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+            "subitem": "Relatório Anual das Atividades Exercidas",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEAUD",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ],
+        "Fabio Jose de Oliveira Araujo": [
+          {
+            "item": "GESTÃO",
+            "subitem": "Registro das competências e responsabilidades do órgão",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIJUR",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDIÊNCIAS E SESSÕES",
+            "subitem": "Audiências e sessões - Calendário",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEJUD",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDIÊNCIAS E SESSÕES",
+            "subitem": "Audiências e sessões - Pauta",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEJUD",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDIÊNCIAS E SESSÕES",
+            "subitem": "Audiências e sessões - transmissão ao vivo",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GECOM",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDIÊNCIAS E SESSÕES",
+            "subitem": "Audiências e sessões - Vídeos das sessões",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GECOM",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Telefondes e horários de atendimento",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "GEAPO",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO ORÇAMENTÁRIA",
+            "subitem": "Relação das empresas contratadas",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Estudos Técnicos Preliminares",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Mapa Comparativo de Preços",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Editais de Licitação",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Questionamento apresentados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Impugnações",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Vencedor da licitação",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Contratos firmados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Instrumentos que substituem o contrato",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Termos Aditivos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Projeto básico ou Termo de Referência",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Dispensa ou Inexigibilidade de licitação",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+            "subitem": "Convênios",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GECON",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Estrutura remuneratória dos cargos efetivos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Estrutura remuneratória dos cargos comissionados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Estrutura remuneratória dos magistrados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Publicação dos Cargos Efetivos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Publicação dos Cargos em Comissão e Funções de Confiança",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Origem funcional dos cargos comissionados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Situação Funcional dos servidores ativos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Publicação dos cargos de magistrados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Situação Funcional dos magistrados ativos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Magistrados não integrantes do quadro próprio",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Quantitativo de beneficiários e dependentes",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Relação completa dos membros da magistratura",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Relação dos terceirizados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Relação dos requisitados",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Publicação da TLP",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Servidores cedidos para outros órgãos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Remuneração dos Servidores",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Publicação das Diárias e Passagens",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIESP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Servidores que estão em teletrabalho",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIGEP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO DE PESSOAS",
+            "subitem": "Relação dos Peritos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "DIESP",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ],
+        "Pedro Davi Alves de Vasconcelos": [
+          {
+            "item": "GESTÃO",
+            "subitem": "Atos Normativos Expedidos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "DIJUR",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "GESTÃO",
+            "subitem": "Acompanhamento dos Processos Administrativos",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GESIS",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ],
+        "Jeremias de Cassio Carneiro de Melo": [
+          {
+            "item": "GESTÃO",
+            "subitem": "Campo Estatística",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GEDAD",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ],
+        "Maria Aparecida Sarmento Gadelha": [
+          {
+            "item": "AUDIÊNCIAS E SESSÕES",
+            "subitem": "Atas Comissões e Comitês",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "COAPO",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "AUDIÊNCIAS E SESSÕES",
+            "subitem": "Audiências Públicas",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "DIESP",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Campo",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Carta de serviços ao cidadão",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Responsável",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Funcionamento",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Acompanhamento das manifestações",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Interposição de recurso contra o indeferimento de pedido de acesso à informação",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "FAQ",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Relatório Estatístico",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "OUVIDORIA",
+            "subitem": "Registro de manifestação",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "OUVIDORIA",
+            "subitem": "Possibilidade de acompamento da manifestação",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "OUVIDORIA",
+            "subitem": "Avaliação do Serviço",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "OUVIDORIA",
+            "subitem": "Tempo médio do atendimento das demandas",
+            "periodo": "01/07/2025 A 30/06/2026",
+            "deadline": "2026-06-30 00:00:00",
+            "pontos": 40.0,
+            "setor": "OUVIDORIA",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ],
+        "Max Nunes de Franca": [
+          {
+            "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+            "subitem": "Link de acesso (PJE, Balcão Virtual, Primeiro Atendimento/Juizados Especiais)",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GESIS",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+            "subitem": "PDTIC",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "COORDENAÇÃO DE GOVERNANÇA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+            "subitem": "Plano de Contratações",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "COORDENAÇÃO DE GOVERNANÇA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+            "subitem": "Painel Visual",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "COORDENAÇÃO DE GOVERNANÇA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+            "subitem": "Extração de relatórios",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "COORDENAÇÃO DE GOVERNANÇA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+            "subitem": "Acesso automatizado",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 2.0,
+            "setor": "COORDENAÇÃO DE GOVERNANÇA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+            "subitem": "Site em aderência ao e-mag",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "GESIS",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ],
+        "Lua Yamaoka Mariz Maia Pitanga": [
+          {
+            "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+            "subitem": "PLS",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "NGSA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+            "subitem": "Plano de ação do PLS",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "NGSA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+            "subitem": "Relatório de desempenho do PLS",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "NGSA",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+            "subitem": "Comissão Gestora do PLS",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 1.0,
+            "setor": "NGSA",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ],
+        "Anna Carla Lopes Correia Lima de Freitas": [
+          {
+            "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+            "subitem": "Ínterprete de Libras",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "COAPO",
+            "eixo": "3. TRANSPARÊNCIA"
+          },
+          {
+            "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+            "subitem": "Planejamento das Ações de Acessibilidade",
+            "periodo": "SITUAÇÃO EM 31/03/2026",
+            "deadline": "2026-03-31 00:00:00",
+            "pontos": 3.0,
+            "setor": "COAPO",
+            "eixo": "3. TRANSPARÊNCIA"
+          }
+        ]
+      }
+    }
+  },
+  "consolidado_coordenadores": {
+    "Fabio Jose de Oliveira Araujo": [
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Funções Comissionadas entre 1º e 2º graus",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Cargos em Comissão entre 1º e 2º graus",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Quantidade de servidores entre 1º e 2º graus",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Cargos em comissão da área administrativa",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Funções comissionadas da área administrativa",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Quantidade de servidores da área administrativa",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Gestão de Memória e Documental",
+        "subitem": "Ambientes físicos e virtuais de preservação da memória",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "CPAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Gestão de Memória e Documental",
+        "subitem": "Editais de eliminação",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CPAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Eventos realizados",
+        "periodo": "01/01/2025 A 31/12/2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CERIMONIAL/NGSA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Grupos vulnerabilizados - Resolução 497/2023",
+        "subitem": "Contratação de grupos vulneráveis",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "DIADM",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "PID",
+        "subitem": "PID",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "GEPLA",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Registro das competências e responsabilidades do órgão",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIJUR",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - Calendário",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEJUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - Pauta",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEJUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - transmissão ao vivo",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECOM",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - Vídeos das sessões",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECOM",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Telefondes e horários de atendimento",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "GEAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Relação das empresas contratadas",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Estudos Técnicos Preliminares",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Mapa Comparativo de Preços",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Editais de Licitação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Questionamento apresentados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Impugnações",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Vencedor da licitação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Contratos firmados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Instrumentos que substituem o contrato",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Termos Aditivos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Projeto básico ou Termo de Referência",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Dispensa ou Inexigibilidade de licitação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Convênios",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Estrutura remuneratória dos cargos efetivos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Estrutura remuneratória dos cargos comissionados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Estrutura remuneratória dos magistrados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação dos Cargos Efetivos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação dos Cargos em Comissão e Funções de Confiança",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Origem funcional dos cargos comissionados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Situação Funcional dos servidores ativos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação dos cargos de magistrados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Situação Funcional dos magistrados ativos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Magistrados não integrantes do quadro próprio",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Quantitativo de beneficiários e dependentes",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação completa dos membros da magistratura",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação dos terceirizados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação dos requisitados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação da TLP",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Servidores cedidos para outros órgãos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Remuneração dos Servidores",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação das Diárias e Passagens",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIESP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Servidores que estão em teletrabalho",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação dos Peritos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIESP",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "Leonardo Sousa de Paiva Oliveira": [
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Orçamento entre 1º e 2º graus",
+        "periodo": "Lei Orçamentária Anual (LOA) de 2026",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "DIFIN",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Estruturação de juizados de violência doméstica e familiar",
+        "subitem": "Estruturação de juizados de violência doméstica e familiar",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "PRESIDÊNCIA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política Judiciária Nacional para a Primeira Infância",
+        "subitem": "Estruturação de juizados de violência doméstica e familiar",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "PRESIDÊNCIA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Normativo do Planejamento Estratégico",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Resultados do Planejamento Estratégico",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Estrutura Organizacional",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Acompanhamento dos Projetos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Execução orçamentária - Anexo I",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Execução orçamentária - Anexo II",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Publicação do QDD",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Publicação da LOA",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Mapa da Execução Orçamentária do ano anterior",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Relatório de Gestão Fiscal",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Mapa Anual de Precatórios",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPRE",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Prestações de contas do ano anterior",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Regularidade das contas proferida pelo Órgão de Controle Externo",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Certificado de auditoria",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Plano Anual de Auditoria",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Plano Anual de Capacitação de Auditoria",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Relatório Anual das Atividades Exercidas",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "Antonieta Lucia Maroja Arcoverde Nobrega": [
+      {
+        "item": "Gestão participativa na elaboração das Metas Nacionais",
+        "subitem": "Realizar audiência pública",
+        "periodo": "01/01/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Gestão participativa na elaboração das Metas Nacionais",
+        "subitem": "Realizar consulta pública",
+        "periodo": "01/01/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Gestão participativa na elaboração das Metas Nacionais",
+        "subitem": "Realizar uma ou mais reuniões com Magistrados e servidores",
+        "periodo": "01/01/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Inspeções nos estabelecimentos de medidas socioeducativas",
+        "subitem": "Meio Fechado",
+        "periodo": "01/07/2025 A 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Inspeções nos estabelecimentos de medidas socioeducativas",
+        "subitem": "Meio aberto",
+        "periodo": "01/07/2025 A 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Servidores capacitados(as)",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "ESMA/NGSA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Magistrados(as) capacitados(as)",
+        "periodo": "01/01/2024 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Núcleo de cooperação judiciária",
+        "subitem": "Capacitação - Direitos Humanos",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Capacitação de Magistrados e servidores",
+        "subitem": "Capacitação - Depoimento Especial",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Capacitação de Magistrados e servidores",
+        "subitem": "Capacitação - reflexão e sensibilização de autores de violência doméstica",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "Lua Yamaoka Mariz Maia Pitanga": [
+      {
+        "item": "Gestão Socioambiental e IDS",
+        "subitem": "Resultado do IDS",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "NGSA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Núcleo de cooperação judiciária",
+        "subitem": "Iniciativa promovida pelo núcleo",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "VICE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Núcleo de cooperação judiciária",
+        "subitem": "Iniciativa promovida pelo magistrado de cooperação",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "VICE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Plano de ação do PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Relatório de desempenho do PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Comissão Gestora do PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "Silmary Alves de Queiroga Vita": [
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Possuir NatJus",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COMITÊ ESTADUAL DE SAÚDE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Executar Plano de Estadual",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COMITÊ ESTADUAL DE SAÚDE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Acordo de Cooperação Técnica",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COMITÊ ESTADUAL DE SAÚDE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Capacitação",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Possuir unidade judiciária especializada na temática da saúde",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Aposentadoria",
+        "subitem": "Programa de Preparação à Aposentadoria (PPA)",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "VICE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Tempo Médio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Jeremias de Cassio Carneiro de Melo": [
+      {
+        "item": "Centro de Inteligência do Poder Judiciário",
+        "subitem": "Emitir 3 Notas técnicas",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política de Gestão da Inovação",
+        "subitem": "Laboratório de Inovação",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COINO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política de Gestão da Inovação",
+        "subitem": "Projeto design thinking",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COINO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "MPM",
+        "subitem": "Cadastro de serventias",
+        "periodo": "Dados recebidos até 20/8/2026",
+        "deadline": "2026-08-20 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "MPM",
+        "subitem": "Cadastro de Magistrados",
+        "periodo": "Dados recebidos até 20/8/2026",
+        "deadline": "2026-08-20 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "MPM",
+        "subitem": "Cadastro de Servidores",
+        "periodo": "Dados recebidos até 20/8/2026",
+        "deadline": "2026-08-20 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Campo Estatística",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEDAD",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "Tulia Gomes de Souza Neves": [
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Capacitação de servidores chefes",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Semana de Combate ao Assédio",
+        "periodo": "01/01/2022 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Campanha de orientação",
+        "periodo": "MAIO DE 2026",
+        "deadline": "2026-05-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Penquisa que avalie assédio no tribunal",
+        "periodo": "01/01/2023 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "Ivna Mozart Bezerra Soares": [
+      {
+        "item": "Política Nacional de Justiça Restaurativa",
+        "subitem": "Possuir CEJURE",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "NEJURE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política Nacional de Justiça Restaurativa",
+        "subitem": "Capacitação",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "NEJURE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política Nacional de Justiça Restaurativa",
+        "subitem": "Relatório de Atividades",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "NEJURE",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "Maria Aparecida Sarmento Gadelha": [
+      {
+        "item": "Instalar GMF",
+        "subitem": "Estrutura de apoio administrativo / Equipe multiprofissional",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GMF",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Inspeções nos estabelecimentos penais",
+        "subitem": "Inspeções nos estabelecimentos penais",
+        "periodo": "01/09/2025 A 31/08/2026",
+        "deadline": "2026-08-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade na promoção por merecimento",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "TRIBUNAL PLENO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade magistradas auxiliares",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "PRESIDÊNCIA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade cortes eleitorais",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "TRIBUNAL PLENO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade servidoras ocupantes de cargos de chefia",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Apoio às Vítimas de Crimes e Atos Infracionais",
+        "subitem": "Centros Especializados de Atenção às Vítimas",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Atas Comissões e Comitês",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências Públicas",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "DIESP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Campo",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Carta de serviços ao cidadão",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Responsável",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Funcionamento",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Acompanhamento das manifestações",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Interposição de recurso contra o indeferimento de pedido de acesso à informação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "FAQ",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Relatório Estatístico",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Registro de manifestação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Possibilidade de acompamento da manifestação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Avaliação do Serviço",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Tempo médio do atendimento das demandas",
+        "periodo": "01/07/2025 A 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 40.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "Max Nunes de Franca": [
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Recursos de tecnologia assistida para srvidores com deficiência visual",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "DITEC",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 10",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Acervo Eletrònico",
+        "subitem": "Acervo Eletrònico",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "iGov-TIC-JUD",
+        "subitem": "iGov-TIC-JUD",
+        "periodo": "SITUAÇÃO EM 15/09/2026",
+        "deadline": "2026-09-15 00:00:00",
+        "pontos": 30.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "iGov-TIC-JUD",
+        "subitem": "Força de Trabalho Ditec",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "PDPJ",
+        "subitem": "SSO",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "PDPJ",
+        "subitem": "Serviço de Peticionamento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Proporção de casos novos",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 25.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Proporção de casos baixados",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 25.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Correlação entre órgão judiciais singulares e locais",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Processos eletrônicos com classe processual válida",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Processos eletrônicos com assuntos válidos",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Latência de Transmissão",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 35.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Domicílio Eletrônico",
+        "subitem": "Domicílio Eletrônico",
+        "periodo": "01/03/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DJEN",
+        "subitem": "DJEN",
+        "periodo": "01/03/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Link de acesso (PJE, Balcão Virtual, Primeiro Atendimento/Juizados Especiais)",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GESIS",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "PDTIC",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Plano de Contratações",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Painel Visual",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Extração de relatórios",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Acesso automatizado",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Site em aderência ao e-mag",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GESIS",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "Anna Carla Lopes Correia Lima de Freitas": [
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Relatório de Ações da COMPACI",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 0.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Ínterprete de Libras",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Planejamento das Ações de Acessibilidade",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "Natan Figueredo Oliveira": [
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Projeto de uso de linguagem simples",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 9",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COINO",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Graziela Queiroga Gadelha de Sousa": [
+      {
+        "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+        "subitem": "Programa de prevenção",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COORDENADORIA VD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+        "subitem": "Campanha de orientação",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "COORDENADORIA VD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+        "subitem": "Evento Anual",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "COORDENADORIA VD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 8",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar Violência contra a Mulher",
+        "subitem": "Tempo Médio - Feminicídio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar Violência contra a Mulher",
+        "subitem": "Tempo médio - VD",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar Violência contra a Mulher",
+        "subitem": "Tempo Médio - Medida Protetiva",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Maria dos Remedios Pordeus Pedrosa": [
+      {
+        "item": "Política Judiciária Nacional para a Primeira Infância",
+        "subitem": "Plano de Ação - Comitê de Primeira Infância",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "COINJU",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 11",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Audiências concentradas socioeducativo",
+        "subitem": "Regulamentação",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Audiências concentradas socioeducativo",
+        "subitem": "Audiências concentradas socioeducativo",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgamento apurações infracionais",
+        "subitem": "Tempo médio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Jailson Shizue Suassuna": [
+      {
+        "item": "IPER",
+        "subitem": "Índice de Promoção de Equidade Racial",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 4",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Meales Medeiros de Melo": [
+      {
+        "item": "Melhores índices no IPC-Jus",
+        "subitem": "Melhores índices no IPC-Jus",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 90.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Redução da Taxa de Congestionamento Líquida",
+        "subitem": "Taxa de Congestionamento Líquida",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Tempo Médio",
+        "subitem": "Tempo Médio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 5",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar processos antigos",
+        "subitem": "Julgar processos antigos",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Unidades judiciárias com IAD acima de 100%",
+        "subitem": "1º Grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Unidades judiciárias com IAD acima de 100%",
+        "subitem": "2º Grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Kleyber Thiago Trovao Eulalio": [
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "1º grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "juizados especiais",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "2º grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "execução extrajudicial não fiscais",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "execução não criminal",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 3",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Alirio Maciel Lima de Brito": [
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 1",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 2",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Deborah Cavalcanti Figueiredo": [
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 6",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 0.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Juízo Verde",
+        "subitem": "IAD",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Juízo Verde",
+        "subitem": "Julgamento dos processos antigos",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Fabio Leandro de Alencar Cunha": [
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "Reavaliação de acolhimento",
+        "periodo": "30/04/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "Tempo Médio - Adoção",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "Tempo Médio - Destituição do poder familiar",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "CPF cadastrado das crianças acolhidas",
+        "periodo": "INICIADOS ATÉ 30/06/2026 E ATIVOS ATÉ 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "BNMP",
+        "subitem": "BNMP",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 0.0,
+        "setor": "GEFIJ",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      }
+    ],
+    "Marcial Henrique Ferraz da Cruz": [
+      {
+        "item": "Ações Penais (geral e júri)",
+        "subitem": "Tempo Médio Ação Penal",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Ações Penais (geral e júri)",
+        "subitem": "Tempo Médio Ação do Júri",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Frederico Martinho da Nobrega Coutinho": [
+      {
+        "item": "Julgar IRDR ou IAC",
+        "subitem": "Julgar IRDR ou IAC",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GABINETES",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Andrea Arcoverde Cavalcanti Vaz": [
+      {
+        "item": "Incidentes de progressão de regime",
+        "subitem": "Incidentes de progressão de regime",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 60.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "Paula Frassinetti V. de Andrade": [
+      {
+        "item": "DataJud",
+        "subitem": "Assunto válido",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento válido",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Documento do Polo ativo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Documento do Polo passivo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Processos Advogado polo passivo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Processo Advogado - representante",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de audiência com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de Remessa com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de mudança de classe com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de recurso a instância superior com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de medida protetiva com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Ação Penal do Júri com assunto da hierarquia 3369",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de sessão júri com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Ação Penal do júri com polo passivo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de Julgamento com CPF do Magistrado",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento x classe processual",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento x órgão julgador",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento x órgão colegiado",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "processos juizo 100% digital",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Processos com Custas recolhidas",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "processos com prioridade",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Saneamento do Datajud",
+        "subitem": "Dados básicos",
+        "periodo": "Enviados ao DataJud até 15/8/2026",
+        "deadline": "2026-08-15 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Saneamento do Datajud",
+        "subitem": "Assuntos",
+        "periodo": "Enviados ao DataJud até 15/8/2026",
+        "deadline": "2026-08-15 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Saneamento do Datajud",
+        "subitem": "Partes",
+        "periodo": "Enviados ao DataJud até 15/8/2026",
+        "deadline": "2026-08-15 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      }
+    ],
+    "Pedro Davi Alves de Vasconcelos": [
+      {
+        "item": "GESTÃO",
+        "subitem": "Atos Normativos Expedidos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIJUR",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Acompanhamento dos Processos Administrativos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GESIS",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ]
+  },
+  "consolidado_setores": {
+    "GEDAD": [
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Funções Comissionadas entre 1º e 2º graus",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Cargos em Comissão entre 1º e 2º graus",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Quantidade de servidores entre 1º e 2º graus",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Cargos em comissão da área administrativa",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Funções comissionadas da área administrativa",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Quantidade de servidores da área administrativa",
+        "periodo": "SITUAÇÃO EM 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Possuir unidade judiciária especializada na temática da saúde",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade servidoras ocupantes de cargos de chefia",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEDAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "MPM",
+        "subitem": "Cadastro de serventias",
+        "periodo": "Dados recebidos até 20/8/2026",
+        "deadline": "2026-08-20 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "MPM",
+        "subitem": "Cadastro de Magistrados",
+        "periodo": "Dados recebidos até 20/8/2026",
+        "deadline": "2026-08-20 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "MPM",
+        "subitem": "Cadastro de Servidores",
+        "periodo": "Dados recebidos até 20/8/2026",
+        "deadline": "2026-08-20 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEDAD",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Campo Estatística",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEDAD",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "DIFIN": [
+      {
+        "item": "Resolução CNJ nº 219/2016 (priorização do 1º Grau)",
+        "subitem": "Orçamento entre 1º e 2º graus",
+        "periodo": "Lei Orçamentária Anual (LOA) de 2026",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "DIFIN",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Execução orçamentária - Anexo I",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Execução orçamentária - Anexo II",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Publicação do QDD",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Publicação da LOA",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Mapa da Execução Orçamentária do ano anterior",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Relatório de Gestão Fiscal",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Prestações de contas do ano anterior",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Regularidade das contas proferida pelo Órgão de Controle Externo",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "DIFIN",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GEPLA": [
+      {
+        "item": "Gestão participativa na elaboração das Metas Nacionais",
+        "subitem": "Realizar audiência pública",
+        "periodo": "01/01/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Gestão participativa na elaboração das Metas Nacionais",
+        "subitem": "Realizar consulta pública",
+        "periodo": "01/01/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Gestão participativa na elaboração das Metas Nacionais",
+        "subitem": "Realizar uma ou mais reuniões com Magistrados e servidores",
+        "periodo": "01/01/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Centro de Inteligência do Poder Judiciário",
+        "subitem": "Emitir 3 Notas técnicas",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Projeto de uso de linguagem simples",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPLA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "PID",
+        "subitem": "PID",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "GEPLA",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Normativo do Planejamento Estratégico",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Resultados do Planejamento Estratégico",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Estrutura Organizacional",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Acompanhamento dos Projetos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPLA",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "NGSA": [
+      {
+        "item": "Gestão Socioambiental e IDS",
+        "subitem": "Resultado do IDS",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "NGSA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Plano de ação do PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Relatório de desempenho do PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Comissão Gestora do PLS",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "NGSA",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "COMITÊ ESTADUAL DE SAÚDE": [
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Possuir NatJus",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COMITÊ ESTADUAL DE SAÚDE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Executar Plano de Estadual",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COMITÊ ESTADUAL DE SAÚDE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Acordo de Cooperação Técnica",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COMITÊ ESTADUAL DE SAÚDE",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "ESMA": [
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Capacitação",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Semana de Combate ao Assédio",
+        "periodo": "01/01/2022 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Magistrados(as) capacitados(as)",
+        "periodo": "01/01/2024 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Núcleo de cooperação judiciária",
+        "subitem": "Capacitação - Direitos Humanos",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Capacitação de Magistrados e servidores",
+        "subitem": "Capacitação - Depoimento Especial",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Capacitação de Magistrados e servidores",
+        "subitem": "Capacitação - reflexão e sensibilização de autores de violência doméstica",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "ESMA",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "COAPO": [
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Capacitação de servidores chefes",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Campanha de orientação",
+        "periodo": "MAIO DE 2026",
+        "deadline": "2026-05-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Assédio Moral, Sexual e Discriminação",
+        "subitem": "Penquisa que avalie assédio no tribunal",
+        "periodo": "01/01/2023 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Relatório de Ações da COMPACI",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 0.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "IPER",
+        "subitem": "Índice de Promoção de Equidade Racial",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "COAPO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Atas Comissões e Comitês",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Ínterprete de Libras",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Planejamento das Ações de Acessibilidade",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "CPAD": [
+      {
+        "item": "Gestão de Memória e Documental",
+        "subitem": "Ambientes físicos e virtuais de preservação da memória",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "CPAD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Gestão de Memória e Documental",
+        "subitem": "Editais de eliminação",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CPAD",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "NEJURE": [
+      {
+        "item": "Política Nacional de Justiça Restaurativa",
+        "subitem": "Possuir CEJURE",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "NEJURE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política Nacional de Justiça Restaurativa",
+        "subitem": "Capacitação",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "NEJURE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política Nacional de Justiça Restaurativa",
+        "subitem": "Relatório de Atividades",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "NEJURE",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "GMF": [
+      {
+        "item": "Instalar GMF",
+        "subitem": "Estrutura de apoio administrativo / Equipe multiprofissional",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GMF",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "UNIDADES JUDICIÁRIAS": [
+      {
+        "item": "Inspeções nos estabelecimentos penais",
+        "subitem": "Inspeções nos estabelecimentos penais",
+        "periodo": "01/09/2025 A 31/08/2026",
+        "deadline": "2026-08-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Inspeções nos estabelecimentos de medidas socioeducativas",
+        "subitem": "Meio Fechado",
+        "periodo": "01/07/2025 A 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Inspeções nos estabelecimentos de medidas socioeducativas",
+        "subitem": "Meio aberto",
+        "periodo": "01/07/2025 A 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Apoio às Vítimas de Crimes e Atos Infracionais",
+        "subitem": "Centros Especializados de Atenção às Vítimas",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Melhores índices no IPC-Jus",
+        "subitem": "Melhores índices no IPC-Jus",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 90.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Redução da Taxa de Congestionamento Líquida",
+        "subitem": "Taxa de Congestionamento Líquida",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Tempo Médio",
+        "subitem": "Tempo Médio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "1º grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "juizados especiais",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "2º grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "execução extrajudicial não fiscais",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Índices de Conciliação",
+        "subitem": "execução não criminal",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 1",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 2",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 3",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 4",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 5",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 6",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 0.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 8",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 10",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 11",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar processos antigos",
+        "subitem": "Julgar processos antigos",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar Violência contra a Mulher",
+        "subitem": "Tempo Médio - Feminicídio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar Violência contra a Mulher",
+        "subitem": "Tempo médio - VD",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgar Violência contra a Mulher",
+        "subitem": "Tempo Médio - Medida Protetiva",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Judicialização da Saúde",
+        "subitem": "Tempo Médio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Ações Penais (geral e júri)",
+        "subitem": "Tempo Médio Ação Penal",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Ações Penais (geral e júri)",
+        "subitem": "Tempo Médio Ação do Júri",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Unidades judiciárias com IAD acima de 100%",
+        "subitem": "1º Grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Unidades judiciárias com IAD acima de 100%",
+        "subitem": "2º Grau",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Juízo Verde",
+        "subitem": "IAD",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Juízo Verde",
+        "subitem": "Julgamento dos processos antigos",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Incidentes de progressão de regime",
+        "subitem": "Incidentes de progressão de regime",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 60.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Audiências concentradas socioeducativo",
+        "subitem": "Regulamentação",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Audiências concentradas socioeducativo",
+        "subitem": "Audiências concentradas socioeducativo",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Julgamento apurações infracionais",
+        "subitem": "Tempo médio",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "TRIBUNAL PLENO": [
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade na promoção por merecimento",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "TRIBUNAL PLENO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade cortes eleitorais",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "TRIBUNAL PLENO",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "PRESIDÊNCIA": [
+      {
+        "item": "Participação Institucional Feminina",
+        "subitem": "Paridade magistradas auxiliares",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "PRESIDÊNCIA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Estruturação de juizados de violência doméstica e familiar",
+        "subitem": "Estruturação de juizados de violência doméstica e familiar",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "PRESIDÊNCIA",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política Judiciária Nacional para a Primeira Infância",
+        "subitem": "Estruturação de juizados de violência doméstica e familiar",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "PRESIDÊNCIA",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "CERIMONIAL/NGSA": [
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Eventos realizados",
+        "periodo": "01/01/2025 A 31/12/2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CERIMONIAL/NGSA",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "DITEC": [
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Recursos de tecnologia assistida para srvidores com deficiência visual",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "DITEC",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "ESMA/NGSA": [
+      {
+        "item": "Acessibilidade e inclusão de pessoas com deficiência",
+        "subitem": "Servidores capacitados(as)",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "ESMA/NGSA",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "COINO": [
+      {
+        "item": "Política de Gestão da Inovação",
+        "subitem": "Laboratório de Inovação",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COINO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Política de Gestão da Inovação",
+        "subitem": "Projeto design thinking",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COINO",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Cumprimento das Metas Nacionais",
+        "subitem": "Meta 9",
+        "periodo": "ANO-BASE 2025",
+        "deadline": "2025-12-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COINO",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "VICE": [
+      {
+        "item": "Núcleo de cooperação judiciária",
+        "subitem": "Iniciativa promovida pelo núcleo",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "VICE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Núcleo de cooperação judiciária",
+        "subitem": "Iniciativa promovida pelo magistrado de cooperação",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "VICE",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Aposentadoria",
+        "subitem": "Programa de Preparação à Aposentadoria (PPA)",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "VICE",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "DIADM": [
+      {
+        "item": "Grupos vulnerabilizados - Resolução 497/2023",
+        "subitem": "Contratação de grupos vulneráveis",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "DIADM",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "COORDENADORIA VD": [
+      {
+        "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+        "subitem": "Programa de prevenção",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "COORDENADORIA VD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+        "subitem": "Campanha de orientação",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "COORDENADORIA VD",
+        "eixo": "1. GOVERNANÇA"
+      },
+      {
+        "item": "Protocolo Enfrentamento à Violência Doméstica Praticada em Face de Magistradas e Servidoras",
+        "subitem": "Evento Anual",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "COORDENADORIA VD",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "COINJU": [
+      {
+        "item": "Política Judiciária Nacional para a Primeira Infância",
+        "subitem": "Plano de Ação - Comitê de Primeira Infância",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "COINJU",
+        "eixo": "1. GOVERNANÇA"
+      }
+    ],
+    "CEJA/UNIDADES JUDICIÁRIAS": [
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "Reavaliação de acolhimento",
+        "periodo": "30/04/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "Tempo Médio - Adoção",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "Tempo Médio - Destituição do poder familiar",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      },
+      {
+        "item": "Adoção e acolhimento",
+        "subitem": "CPF cadastrado das crianças acolhidas",
+        "periodo": "INICIADOS ATÉ 30/06/2026 E ATIVOS ATÉ 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "CEJA/UNIDADES JUDICIÁRIAS",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "GABINETES": [
+      {
+        "item": "Julgar IRDR ou IAC",
+        "subitem": "Julgar IRDR ou IAC",
+        "periodo": "01/08/2025 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 15.0,
+        "setor": "GABINETES",
+        "eixo": "2. PRODUTIVIDADE"
+      }
+    ],
+    "GEPJE": [
+      {
+        "item": "DataJud",
+        "subitem": "Assunto válido",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento válido",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Documento do Polo ativo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Documento do Polo passivo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Processos Advogado polo passivo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Processo Advogado - representante",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de audiência com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de Remessa com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de mudança de classe com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de recurso a instância superior com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de medida protetiva com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Ação Penal do Júri com assunto da hierarquia 3369",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de sessão júri com complemento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Ação Penal do júri com polo passivo",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento de Julgamento com CPF do Magistrado",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento x classe processual",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento x órgão julgador",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Movimento x órgão colegiado",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "processos juizo 100% digital",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 5.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "Processos com Custas recolhidas",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DataJud",
+        "subitem": "processos com prioridade",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Saneamento do Datajud",
+        "subitem": "Dados básicos",
+        "periodo": "Enviados ao DataJud até 15/8/2026",
+        "deadline": "2026-08-15 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Saneamento do Datajud",
+        "subitem": "Assuntos",
+        "periodo": "Enviados ao DataJud até 15/8/2026",
+        "deadline": "2026-08-15 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Saneamento do Datajud",
+        "subitem": "Partes",
+        "periodo": "Enviados ao DataJud até 15/8/2026",
+        "deadline": "2026-08-15 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Acervo Eletrònico",
+        "subitem": "Acervo Eletrònico",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 50.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Domicílio Eletrônico",
+        "subitem": "Domicílio Eletrônico",
+        "periodo": "01/03/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "DJEN",
+        "subitem": "DJEN",
+        "periodo": "01/03/2026 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEPJE",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      }
+    ],
+    "COORDENAÇÃO DE GOVERNANÇA": [
+      {
+        "item": "iGov-TIC-JUD",
+        "subitem": "iGov-TIC-JUD",
+        "periodo": "SITUAÇÃO EM 15/09/2026",
+        "deadline": "2026-09-15 00:00:00",
+        "pontos": 30.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "iGov-TIC-JUD",
+        "subitem": "Força de Trabalho Ditec",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "PDTIC",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Plano de Contratações",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Painel Visual",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Extração de relatórios",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        "subitem": "Acesso automatizado",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "COORDENAÇÃO DE GOVERNANÇA",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GEINF": [
+      {
+        "item": "PDPJ",
+        "subitem": "SSO",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 30.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "PDPJ",
+        "subitem": "Serviço de Peticionamento",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 20.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Proporção de casos novos",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 25.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Proporção de casos baixados",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 25.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Correlação entre órgão judiciais singulares e locais",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Processos eletrônicos com classe processual válida",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Processos eletrônicos com assuntos válidos",
+        "periodo": "SITUAÇÃO EM 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 10.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      },
+      {
+        "item": "Codex",
+        "subitem": "Latência de Transmissão",
+        "periodo": "01/01/2026 a 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 35.0,
+        "setor": "GEINF",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      }
+    ],
+    "GEFIJ": [
+      {
+        "item": "BNMP",
+        "subitem": "BNMP",
+        "periodo": "01/08/2025 A 31/07/2026",
+        "deadline": "2026-07-31 00:00:00",
+        "pontos": 0.0,
+        "setor": "GEFIJ",
+        "eixo": "4. DADOS E TECNOLOGIA"
+      }
+    ],
+    "DIJUR": [
+      {
+        "item": "GESTÃO",
+        "subitem": "Registro das competências e responsabilidades do órgão",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIJUR",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO",
+        "subitem": "Atos Normativos Expedidos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIJUR",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GESIS": [
+      {
+        "item": "GESTÃO",
+        "subitem": "Acompanhamento dos Processos Administrativos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GESIS",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Link de acesso (PJE, Balcão Virtual, Primeiro Atendimento/Juizados Especiais)",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GESIS",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SUSTENTABILIDADE E ACESSIBILIDADE",
+        "subitem": "Site em aderência ao e-mag",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GESIS",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GEJUD": [
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - Calendário",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEJUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - Pauta",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEJUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GECOM": [
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - transmissão ao vivo",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECOM",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências e sessões - Vídeos das sessões",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECOM",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "DIESP": [
+      {
+        "item": "AUDIÊNCIAS E SESSÕES",
+        "subitem": "Audiências Públicas",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "DIESP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação das Diárias e Passagens",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIESP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação dos Peritos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIESP",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GEAPO": [
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Telefondes e horários de atendimento",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "GEAPO",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "OUVIDORIA": [
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Campo",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Carta de serviços ao cidadão",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Responsável",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Funcionamento",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Acompanhamento das manifestações",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Interposição de recurso contra o indeferimento de pedido de acesso à informação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "FAQ",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "SERVIÇO DE INFORMAÇÕES AO CIDADÃO – SIC",
+        "subitem": "Relatório Estatístico",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Registro de manifestação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Possibilidade de acompamento da manifestação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Avaliação do Serviço",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "OUVIDORIA",
+        "subitem": "Tempo médio do atendimento das demandas",
+        "periodo": "01/07/2025 A 30/06/2026",
+        "deadline": "2026-06-30 00:00:00",
+        "pontos": 40.0,
+        "setor": "OUVIDORIA",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GEPRE": [
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Mapa Anual de Precatórios",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEPRE",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GECON": [
+      {
+        "item": "GESTÃO ORÇAMENTÁRIA",
+        "subitem": "Relação das empresas contratadas",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Estudos Técnicos Preliminares",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Mapa Comparativo de Preços",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Editais de Licitação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Questionamento apresentados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Impugnações",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Vencedor da licitação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Contratos firmados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Instrumentos que substituem o contrato",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Termos Aditivos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Projeto básico ou Termo de Referência",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Dispensa ou Inexigibilidade de licitação",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "LICITAÇÕES, CONTRATOS E INSTRUMENTOS DE COORPERAÇÃO",
+        "subitem": "Convênios",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GECON",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "DIGEP": [
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Estrutura remuneratória dos cargos efetivos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Estrutura remuneratória dos cargos comissionados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Estrutura remuneratória dos magistrados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação dos Cargos Efetivos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação dos Cargos em Comissão e Funções de Confiança",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Origem funcional dos cargos comissionados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Situação Funcional dos servidores ativos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação dos cargos de magistrados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Situação Funcional dos magistrados ativos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Magistrados não integrantes do quadro próprio",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Quantitativo de beneficiários e dependentes",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação completa dos membros da magistratura",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação dos terceirizados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Relação dos requisitados",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Publicação da TLP",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 1.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Servidores cedidos para outros órgãos",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Remuneração dos Servidores",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "GESTÃO DE PESSOAS",
+        "subitem": "Servidores que estão em teletrabalho",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 2.0,
+        "setor": "DIGEP",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ],
+    "GEAUD": [
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Certificado de auditoria",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Plano Anual de Auditoria",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Plano Anual de Capacitação de Auditoria",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      },
+      {
+        "item": "AUDITORIA E PRESTAÇÃO DE CONTAS",
+        "subitem": "Relatório Anual das Atividades Exercidas",
+        "periodo": "SITUAÇÃO EM 31/03/2026",
+        "deadline": "2026-03-31 00:00:00",
+        "pontos": 3.0,
+        "setor": "GEAUD",
+        "eixo": "3. TRANSPARÊNCIA"
+      }
+    ]
+  }
+};
+
+const coresEixos = {
+  "1. GOVERNANÇA": {
+    "primary": "#1976D2",
+    "dark": "#1565C0",
+    "light": "#E3F2FD"
+  },
+  "2. PRODUTIVIDADE": {
+    "primary": "#388E3C",
+    "dark": "#2E7D32",
+    "light": "#E8F5E9"
+  },
+  "3. TRANSPARÊNCIA": {
+    "primary": "#F57C00",
+    "dark": "#E65100",
+    "light": "#FFF3E0"
+  },
+  "4. DADOS E TECNOLOGIA": {
+    "primary": "#7B1FA2",
+    "dark": "#6A1B9A",
+    "light": "#F3E5F5"
+  }
+};
